@@ -1,12 +1,13 @@
-# ML_projects
+# ML Projects Repository
 
-Welcome to the ML Projects Repository! This repository contains a collection of machine learning projects developed for various applications, including medical predictions and natural language processing. Each project demonstrates different machine learning techniques and algorithms, providing practical examples and insights into their implementation.
+Welcome to the ML Projects Repository! This repository contains a collection of machine learning projects developed for various applications, including medical predictions, natural language processing, and image recognition. Each project demonstrates different machine learning techniques and algorithms, providing practical examples and insights into their implementation.
 
 ## Table of Contents
 
 - [Breast Cancer Prediction using Decision Trees](#breast-cancer-prediction-using-decision-trees)
 - [Cerebral Stroke Prediction using SMOTE](#cerebral-stroke-prediction-using-smote)
 - [Text Summarization using NLTK](#text-summarization-using-nltk)
+- [MNIST Digits Recognition using Neural Networks](#mnist-digits-recognition-using-neural-networks)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -64,6 +65,24 @@ This project implements text summarization techniques using the Natural Language
 ### Usage
 Navigate to the `text_summarization` directory and run the Jupyter notebook or Python script to see the text summarization in action.
 
+## MNIST Digits Recognition using Neural Networks
+
+### Overview
+This project applies neural networks to recognize handwritten digits from the MNIST dataset, a benchmark dataset in machine learning and computer vision.
+
+### Highlights
+- **Algorithm**: Neural Network (Multilayer Perceptron)
+- **Dataset**: MNIST Handwritten Digits Dataset
+- **Libraries**: numpy, matplotlib
+- **Steps**:
+  1. Data loading and preprocessing
+  2. Building the neural network model
+  3. Model training and evaluation
+  4. Visualizing results
+
+### Usage
+Navigate to the `mnist_digits_recognition` directory and run the Jupyter notebook or Python script to explore the implementation.
+
 ## Contributing
 
 We welcome contributions to enhance and expand the projects in this repository. If you have a new project or improvements to existing ones, feel free to fork the repository, make your changes, and submit a pull request.
@@ -71,7 +90,3 @@ We welcome contributions to enhance and expand the projects in this repository. 
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Explore the projects, experiment with the code, and enhance your machine learning skills with these practical examples! 🚀
